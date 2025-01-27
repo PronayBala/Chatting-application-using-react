@@ -1,0 +1,253 @@
+/*  */
+
+.main-box {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#0c84a1, #056d39);
+}
+
+#header-logo {
+    position: relative;
+    top: 30%;
+    left: 7%;
+    width: 200px;
+}
+
+.top-box {
+    padding: 50px;
+    height: 50%;
+}
+.bottom-box {
+    background-color: #8a8a8a;
+    height: 100%;
+    background-image: url("../public/messenger-chat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-box ol {
+    padding: 20px;
+}
+
+.googleLogin-btn {
+    margin-top: 30px;
+}
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#0c84a1, #056d39);
+}
+
+.main-chat-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+}
+
+.left-chat-bar {
+    height: 100vh;
+    width: 100%;
+    background-color: #292929;
+    color: #fff;
+    border-right: 1px solid #000;
+}
+.right-chat-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../public/WhatsApp-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chat-header {
+    padding: 20px;
+    background-color: #292929;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom: 1px solid #505050;
+}
+
+.dp {
+    align-items: center;
+    margin-right: 10px;
+}
+
+.search-bar {
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    gap: 20px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.search-bar:focus-within {
+    border: 1px solid rgb(18, 207, 135);
+}
+
+.search-bar input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.menu-item {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.drawerHeader {
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.drawerHeader strong {
+    font-size: 20px;
+    color: #fff;
+}
+
+.status-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.statusUpdateFild {
+    outline: none;
+    border: none;
+    padding: 20px;
+    width: 60%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.315);
+    border-radius: 7px;
+}
+.statusUpdateFild:focus {
+    background-color: rgba(88, 255, 199, 0.315);
+}
+.statusUpdateFild::placeholder {
+    color: #fff;
+}
+.status {
+    margin: auto;
+    color: #fff;
+}
+
+.profile-info-section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    color: #fff;
+}
+.profile-info-section h3 {
+    margin-top: 30px;
+}
+
+.profile-info-section span {
+    color: #0c84a1;
+}
+.noChat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+.noChat img {
+    width: 50%;
+    height: 50%;
+}
+
+.main-conversation-wrapper {
+    color: #fff;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #505050;
+    cursor: pointer;
+}
+
+.conversation-top-section {
+    padding: 10px;
+}
+.conversation-name {
+    font-size: 17px;
+}
+
+.ChatBoxHeader-main-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #292929;
+    border-left: 1px solid #505050;
+    padding: 10px 30px;
+    color: #fff;
+}
+.main-chatboxfooter-wrapper {
+    background-color: #292929;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* position: absolute;
+    top: 800px;
+    right: 0px; */
+}
+
+.main-chatboxfooter-wrapper input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 1010px;
+    padding: 5px;
+    color: #fff;
+}
+
+.msg {
+    max-width: 70%;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: #0c84a1;
+    border-radius: 5px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: #fac1c1;
+    color: #000;
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: #c9fac8;
+    color: #000;
+}
+
+.main-chats-wrapper {
+    width: 100%;
+    height: 77.5%;
+    overflow-y: scroll;
+}
+
+.msg-time {
+    font-size: 14px;
+    color: #6e6e6e;
+}
